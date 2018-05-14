@@ -227,6 +227,7 @@ module ActiveRecord
       end
       alias index_name_length max_identifier_length
       alias table_alias_length max_identifier_length
+      alias max_identifier_length table_alias_length
 
       private
 
